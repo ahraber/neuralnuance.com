@@ -1,0 +1,16 @@
+baseurl = "http://www.neuralnuance.com/"
+title = "NeuralNuance"
+languageCode = "en-us"
+
+
+[Params]
+TitleAppendix = " - www.neuralnuance.com"
+Description = "NeuralNuance by Alex H. Raber"
+Keywords = "Neural, Nuance, Alex H. Raber, Raber, Alex, Developer"
+TwitterHandle = ""
+FeedUrl = "https://feeds.feedburner.com/"
+StaticmanEndpoint = "https://api.staticman.net/v2/entry"
+StaticmanUsername = "Alex"
+StaticmanRepo = "neuralnuance.com"
+StaticmanBranch = "master"
+PygmentsCodeFences = true
