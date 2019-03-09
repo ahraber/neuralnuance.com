@@ -51,13 +51,13 @@ deploy:
   # Staging environment
   - provider: script
     skip_cleanup: true
-    script: chmod +x ./deploy.sh && ./deploy.sh neuralnuance.com 52361 $KEYCDN_APIKEY
+    script: chmod +x ./deploy.sh && ./deploy.sh neuralnuance.com 52361
     on:
       branch: release-staging
   # Production environment
   - provider: script
     skip_cleanup: true
-    script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52360 $KEYCDN_APIKEY
+    script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52360
     on:
       branch: master
 notifications:
