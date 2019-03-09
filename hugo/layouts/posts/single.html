@@ -3,7 +3,7 @@
 <article>
   <header class="wrapper">
     <h2>{{ .Title }}</h2>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Monday Jan 2, 2006" }}</time>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Monday Jan 2, 2006" }} by Alex H. Raber</time>
   </header>
   <section id="articlebody">
     <div class="wrapper">
@@ -18,9 +18,5 @@
       </ul>    
     {{ end }}       
   </nav>
-  <section class="wrapper">
-    {{ partial "comments.html" . }}  
-    {{ partial "comment-form.html" . }}  
-  </section>
 </article>
 {{ partial "footer.html" . }}

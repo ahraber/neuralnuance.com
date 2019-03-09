@@ -4,10 +4,7 @@ title = "About Me"
 
 +++
 
-My name is Alex H. Raber, I'm a cloud and devops engineer with a passion for technology. I love the outdoors.
-{{< widecontent >}}
-<img src="/img/boat.jpg" alt="Fishing Boat" class="boxshadow border">
-{{</ widecontent >}}
+Hey, my name is Alex H. Raber, I'm a thinker and tinkere, and self-taught cloud and devops engineer by trade. I have a passion for learning new technologies and bending them to solve unique and complex problems. I currently reside in the mountains near Bend, Oregon.
 
 ## I need some help, can I hire you?
 I am currently **unavailable** for full-time work.
