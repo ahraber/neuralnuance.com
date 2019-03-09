@@ -3,7 +3,7 @@ date = "2019-03-09"
 draft = false
 title = """Quick and Dirty Packages"""
 slug = "quick-and-dirty-packages"
-description: "Introduction to modular thinking in python"
+description = "Introduction to modular thinking in python"
 keywords = "programming,python,packages,modularity"
 tags = ['Programming', 'Python']
 +++
