@@ -10,7 +10,7 @@ s3cmd sync --delete-removed \
     --guess-mime-type \
     --recursive \
     public/ \
-    s3://$1/     
+    s3://$1/
 # Sync no-cache content to S3
 s3cmd sync --delete-removed \
     --exclude '*' \
@@ -24,4 +24,4 @@ s3cmd sync --delete-removed \
     --guess-mime-type \
     --recursive \
     public/ \
-    s3://$1/ 
+    s3://$1/

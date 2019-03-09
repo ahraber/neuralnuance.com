@@ -29,7 +29,7 @@ install:
 
 script:
   # Set Base Url based on branch
-  - case "$TRAVIS_BRANCH" in ("master") BASE_URL="http://www.neuralnuance.com/" ;; ("release-staging") BASE_URL="http://neuralnuance.com/" ;; (*) BASE_URL="http://localhost:8080" ;; esac
+  - case "$TRAVIS_BRANCH" in ("master") BASE_URL="http://www.neuralnuance.com/" ;; ("release-staging") BASE_URL="http://www.neuralnuance.com/" ;; (*) BASE_URL="http://localhost:8080" ;; esac
 
   # Build
   - gulp publish --baseUrl=$BASE_URL
@@ -51,7 +51,7 @@ deploy:
   # Staging environment
   - provider: script
     skip_cleanup: true
-    script: chmod +x ./deploy.sh && ./deploy.sh neuralnuance.com 52361
+    script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52361
     on:
       branch: release-staging
   # Production environment
