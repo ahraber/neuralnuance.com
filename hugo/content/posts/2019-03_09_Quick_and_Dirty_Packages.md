@@ -12,7 +12,7 @@ tags = ['Programming', 'Python']
 
 ### Modular Thinking
 
-Imagine a lightweight smartphone app that's purpose is to assist in accomplishing difficult or mundane tasks in other, possibly larger, applications. Now imagine multiples of these micro-applications all at the tips of your fingers. Each of these micro-applications can do one thing exactly the same way every single time.
+Imagine a lightweight smartphone app that's purpose is to assist in accomplishing difficult or mundane tasks in other, possibly larger, applications. Now imagine multiples of these micro-applications all at the tips of your fingers. Each of these micro-applications can do one unique thing exactly the same way every single time.
 
 Welcome to programming in [python](http://bit.ly/2SSKKEL), and more precisely, welcome to a quick and dirty introductory blurb on [modularity](http://bit.ly/2EWIwAc) in python using [PyPI](http://bit.ly/2EOaoVZ) and [pip](http://bit.ly/2SSuYJO), the dynamic-duo for finding and downloading python [packages](http://bit.ly/2NSzI1h).
 
@@ -30,13 +30,13 @@ To truly understand the power of modularity and packages, and why you may want t
 
 This article focuses on the 3rd item, discoverying tools which have already been built for you to complete the task at hand. I gave 2 examples above for transforming arbitrary text and applying calculus. With this simple thought experiment, and python of course, a person with no programming experience can pick up a rather abstract problem, break it down into it's simplest form, and have a working solution within a few minutes to a couple of hours. I'd suggest setting your sights relatively low, and level up your general programming skills as you develop more useful and interesting projects, leveraging what has already been built for you. We are focusing on speed to solution here. Perfection does not exist, and at this stage we do not care about [optimization](http://bit.ly/2UreKZK). Remember that you are building a tool to solve your particular problem, much like a blacksmith or metalworker would craft a pickaxe for the sole purpose of mining.
 
-Like every other problem that exists (in programming and not), input must be provided. In the examples above, our input is text and the result is the text being displaying upside down, and there could be several inputs for the curveball trajectory simulation -- one could imagine such an [algorithm](http://bit.ly/2J04aI8) (read "step-by-step process") taking into account parameters such as the weather, elevation, throwing motion and fatigue, the force of gravity, jersey number and so on.
+Like every other problem that exists (in programming and not), input must be provided. In the examples above, our input is text and the result is the text being displayed upside down, and there could be several inputs for the curveball trajectory simulation -- one could imagine such an [algorithm](http://bit.ly/2J04aI8) (read "step-by-step process") taking into account parameters such as the weather, elevation, throwing motion and fatigue, the force of gravity, jersey number and so on.
 
 Think liberally for a few seconds about any problem and you'll quickly realize that it is created by a single or multiple contributing factor(s), and there's an outcome to everything (though you may not appreciate the outcome). This is a programming truth as well. Some packages you find in PyPI will not support the number of required input parameters for the problem you are trying to solve, for example. In such a case, there may be another package available that supports a more robust use case. You will also want to review the [standard library](http://bit.ly/2TCzDUz) of packages that come [builtin](http://bit.ly/2J2fNON) to python as well.
 
 ### Options 
 
-Generally, you may find multiple candidates of packages that you can leverage to solve your problem. If you don't find exaclty what you're looking for then you have a few options:
+Generally, you may find multiple candidates of packages that you can leverage to solve your problem. If you don't find exaclty what you're looking for, then you have a few options:
 
 1. Pick the package that most closely fits your use case and re-write it to support the functionality that you desire. -- This is often more trouble than it's worth. I mention it first to illustrate that we can use brute force but there are often times a more ellegant approach. If you do go through with this and get it working, try making a [pull request](http://bit.ly/2EYPB3k) against the maintainer's version of the code (usually in [github](http://bit.ly/2u0H4q8)).
 2. Invent the wheel. -- I humbly write that it's doubtful your use case is so unique that a package doesn't already exist to help you solve it, especially if you're reading this to learn about PyPI and pip, so this path should not be chosen unless you really want to recreate a package for learning sake. In that case, more power to you!
@@ -57,7 +57,7 @@ Some useful packages on PyPI are:
 
 1. [requests](http://bit.ly/2UuVV7U) - Used to communicate with other application api's across the network and internet.
 2. [flask](http://bit.ly/2ENfj9G) - Build your own website, and host it with flask.
-3. [jupyter_notbook](http://bit.ly/2EOMffy) - Take notes or download other people's notebooks, also currently the best tool for learning data science in python.
+3. [jupyter_notebook](http://bit.ly/2EOMffy) - Take notes or download other people's notebooks, also currently the best tool for learning data science in python.
 
 
 Finally, I leave you with this [happy little ai-ccident](https://youtu.be/5DaVnriHhPc).
