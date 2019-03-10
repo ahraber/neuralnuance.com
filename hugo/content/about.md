@@ -1,10 +1,15 @@
 +++
 date = "2016-12-08T16:11:43-05:00"
 title = "About Me"
-
 +++
 
-Hey, my name is Alex H. Raber, I'm a thinker and tinkerer, and self-taught cloud and devops engineer by trade. I have a passion for learning new technologies and bending them to solve unique and complex problems. I currently reside in the mountains near Bend, Oregon.
+Hey, my name is Alex H. Raber, I'm a thinker and tinkerer, and self-taught cloud and devops engineer by trade, specializing in custom CI/CD pipelines and containerization of microservices. I have a passion for learning new technologies and bending them to solve unique and complex problems. I currently reside in the small Pacific Northwest mountain town of Mitchell, Oregon near the Painted Hills.
+
+{{< widecontent >}}
+<img src="/img/painted-hills.jpg" alt="Painted Hills" class="boxshadow border">
+{{</ widecontent >}}
+
+When I'm not coding, I'm usually roaming the forests and hills in Central Oregon making my own trails. I'm an avid reader, photographer and builder, and serve on the local Volunteer Fire Department as a Safety Officer.
 
 ## I need some help, can I hire you?
 I am currently **unavailable** for full-time work.
