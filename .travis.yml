@@ -48,17 +48,17 @@ cache:
   - $(npm config get prefix)/bin/pa11y
   - $(npm config get prefix)/bin/pa11y-ci
 deploy:
-  # Staging environment
-  - provider: script
-    skip_cleanup: true
-    script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52361
-    on:
-      branch: release-staging
-  # Production environment
-  - provider: script
-    skip_cleanup: true
-    script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52360
-    on:
-      branch: master
+  ## Staging environment
+  #- provider: script
+  #  skip_cleanup: true
+  #  script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52361
+  #  on:
+  #    branch: release-staging
+  ## Production environment
+  #- provider: script
+  #  skip_cleanup: true
+  #  script: chmod +x ./deploy.sh && ./deploy.sh www.neuralnuance.com 52360
+  #  on:
+  #    branch: master
 notifications:
     email:
