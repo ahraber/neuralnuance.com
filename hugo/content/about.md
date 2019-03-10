@@ -4,7 +4,7 @@ title = "About Me"
 
 +++
 
-Hey, my name is Alex H. Raber, I'm a thinker and tinkere, and self-taught cloud and devops engineer by trade. I have a passion for learning new technologies and bending them to solve unique and complex problems. I currently reside in the mountains near Bend, Oregon.
+Hey, my name is Alex H. Raber, I'm a thinker and tinkerer, and self-taught cloud and devops engineer by trade. I have a passion for learning new technologies and bending them to solve unique and complex problems. I currently reside in the mountains near Bend, Oregon.
 
 ## I need some help, can I hire you?
 I am currently **unavailable** for full-time work.
