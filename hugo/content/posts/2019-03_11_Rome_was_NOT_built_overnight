@@ -1,0 +1,54 @@
++++
+date = "2019-03-11"
+draft = false
+title = """Rome was NOT built overnight"""
+slug = "rome-in-a-night"
+description = "The power of continuous integration"
+keywords = "programming,integration,ci"
+tags = ['Programming', 'automation']
++++
+
+{{% toc %}}
+
+### A Moral in Reality
+
+Contrary to popular belief, [Rome](http://bit.ly/2XTUbHq) was infact NOT built overnight. It has taken several thousands of years and is still a [work in progress](http://bit.ly/2CfbjOX). Much like the operating system and applications on your smartphone, tablet, smartwatch and laptop, Rome will never be a finished product.
+
+Architecture is architecture, a continuously evolving experimental science taking in considerations from past successes and failures across every other field of science and industry trend. As you learned in my last post, [perfection is impossible](http://bit.ly/2TLXOQw), however this does not mean that we cannot strive for it.
+
+As we all iterate on our existing projects in accordance with the design docs bestowed unto us, we aim for smaller, faster, larger scale and higher throughput, as cheaply and as efficiently as possible.
+
+While tools become ever more powerful (think [containers](http://bit.ly/2J4XJDz) compared to "legacy" virtual machines), the process we use to create these sky scrapers continues to be. one. change. at. a. time.
+
+### Review and Contemplate
+
+As in any other industry of design, crafts, and structures, building must be done in a [pragmattic approach](http://bit.ly/2EUE6bU). You must consider all outcomes before settling on the path forward. It's very difficult and often times significantly costly to "undo" a change once it has already been integrated and depended upon by other systems and engineers.
+
+Careful review and contemplation is the most important thing we do as engineers and what dictates project, company and career success.
+
+This can be a [group activity](http://bit.ly/2UxCE61), at least if you're feeling uncertain run your idea by a colleague before jumping off the cliff. Just don't make a habbit of asking people on every task, or folks will start wondering why you're even being paid.
+
+### Change
+
+A change is a change, and each change is unlike all of the rest. The similarity here is simply that things do change. You may need to make several changes before the right one is accepted by you and your peers, hopefully in the form of a pull request. As important as your change is, so is updating the documentation external of the source code. This can be in the form of api docs ([swagger](http://bit.ly/2O0pSuq) for example), a README, or series of articles accessible to you and your team for quick reference. Just please, for the love of humanity, don't make it a comment (or at least update the existing comment).
+
+When presenting to C levels, investors and managers, they expect to see a level of completeness. Fumbling through source code (even using hotkeys in your [JetBrains](http://bit.ly/2HfAxkq) editor of choice) will not suffice, it shows unorganization and lack of documentation (incompleteness). Take pride in your work and make the system accessible.
+
+As we are all on the hook for precise implementations, we ought to know what we are doing before we plug it in as code, and further, we can circle back during compilation, testing, and/or before leaving for the day, to tidy up our work space.
+
+### Test
+
+Writing tests is one of the most benefitial uses of your time. No wonder nobody does it. If you're forced to, because the Tech Lead threatens to fire you if you don't comply, I again stress that you really ought to write tests for your code. Hopefully you're using a nice automation framework for running your tests in an isolated environment.
+
+If you don't already use [TravisCI](http://bit.ly/2HoRb09), [Jenkins](http://bit.ly/2ETCMWJ), or a similar automation tool for managing automated builds, deployments and tests, this should be the very first think you speak about during tomorrow's [standup](http://bit.ly/2J869Ke) -- and hopefully you have a regular standup.
+
+### Repeat
+
+So you found a bug, reviewed the surrounding source code, contemplated a fix (with or without a friend), wrote and tested, and re-wrote and re-tested, and re-wrote and re-tested, and re-wrote and re-tested. Now what?
+
+Yeah... Roll up those sleeves and get back to work. You're on the clock. 
+Might I suggest using the [Pomodoro Technique](http://bit.ly/2ETkUeE), you work hard and you don't get thanked, so why not spend a few minutes after each stride and rest that mind of yours. 
+
+Finally, I leave you with a [Japanese Demon Owl](http://bit.ly/2ChhQsf).
+
+Until next time.
